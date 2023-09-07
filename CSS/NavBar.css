@@ -1,0 +1,21 @@
+ /* Custom CSS to style the mobile drawer */
+ @media (max-width: 991.98px) {
+    .navbar-collapse {
+        position: fixed;
+        top: 0;
+        left: -100%; /* Initially hide the navigation */
+        width: 250px; /* Adjust this value to control the drawer width */
+        height: 100%;
+        padding-top: 60px;
+        background-color: black; /* Background color of the drawer */
+        transition: left 0.3s ease-in-out;
+    }
+
+    .navbar-collapse.show {
+        left: 0; /* Show the navigation */
+    }
+}
+#navbarNav
+{
+    
+}
