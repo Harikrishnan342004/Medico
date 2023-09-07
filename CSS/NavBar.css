@@ -4,15 +4,24 @@
         position: fixed;
         top: 0;
         left: -100%; /* Initially hide the navigation */
-        width: 250px; /* Adjust this value to control the drawer width */
+        width: 80%; /* Adjust this value to control the drawer width */
         height: 100%;
         padding-top: 60px;
         background-color: black; /* Background color of the drawer */
         transition: left 0.3s ease-in-out;
     }
+    .nav-item
+    {
+        margin-left: 30px;
+        font-size: larger;
+    }
 
     .navbar-collapse.show {
         left: 0; /* Show the navigation */
+    }
+    .navbar-toggler
+    {
+        background-color: antiquewhite;
     }
 }
 #navbarNav
