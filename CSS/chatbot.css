@@ -60,13 +60,13 @@ body {
 @media only screen and (max-width: 600px) {
     #chat-container
     {
-     background-color: aqua;
+   
      margin-left: -0.58px;
       
     }
     #chat-output 
     {
-     background-color: brown;
+    
      height: 600px;
     }
     .input-box
