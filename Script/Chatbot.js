@@ -1,3 +1,13 @@
+function Chatbot()
+{
+    document.getElementById("Chatbot").addEventListener("click", function()
+    {
+         window.location.href = "Chatbot.html";
+    });
+}
+
+
+
 const chatOutput = document.getElementById("chat-output");
 const userInput = document.getElementById("user-input");
 const sendButton = document.getElementById("send-button");
