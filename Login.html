@@ -11,7 +11,10 @@
 </head>
 <body>
     <div class="login-form">
+        <!-- Heading  -->
         <h2 class="text-center">Login</h2>
+
+        <!-- Form Container -->
         <form>
             <div class="mb-3">
                
@@ -20,17 +23,56 @@
             <div class="mb-3">
                
                 <input type="password" class="form-control" id="password" name="password" placeholder="password" required>
+                <div class="Show-Password">
+                    <input type="checkbox" onclick="Myfunction()"  > Show Password
+                </div>
+                
             </div>
           
         </form>
-
+           <!-- Button Div Container -->
         <br> <br> 
         <div class="button-class">
             <button type="submit" class="btn btn-primary">Login</button>
 
-            <button type="submit" class="btn btn-primary">Sign up</button>
+            <button type="submit" class="btn btn-primary" id="Sign-up" >Sign up</button>
         </div>
        
     </div>
+
+
+
+      <!-- Js code for password toogle  -->
+    <script>
+        function Myfunction() {
+          var x = document.getElementById("password");
+          if (x.type === "password") {
+            x.type = "text";
+          } else {
+            x.type = "password";
+          }
+        }
+    </script>
+
+    <script>
+        document.getElementById("Sign-up").addEventListener("click", function() {
+             window.location.href = "signup.html";
+        });
+    </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </body>
 </html>
