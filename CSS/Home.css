@@ -1,0 +1,53 @@
+#containerstyle
+{
+   
+    height: 680px;
+}
+#col1
+{
+    margin: auto;
+   
+    
+   
+}
+.direction
+{
+    direction: ltr;
+    margin-top: 100px;
+   
+}
+.readmore
+{
+    background-color:  black;
+    color: white;
+    border-radius: 5px;
+}
+#col2
+{
+   border: 2px solid green;
+}
+
+.doc
+{
+    width: 700px;
+    height: 500px;
+
+    
+}
+@media only screen and (max-width: 900px) {
+    #col1 {
+      background-color:black;
+      width: 100%;
+    }
+    #col2 {
+        background-color: lightblue;
+        width: 100%;
+      }
+      .doc
+{
+    width: 300px;
+    height: 200px;
+    margin-left: 40px;
+    
+}
+  }
