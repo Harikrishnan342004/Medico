@@ -24,7 +24,7 @@
 }
 #col2
 {
-   border: 2px solid green;
+   
 }
 
 .doc
@@ -36,18 +36,17 @@
 }
 @media only screen and (max-width: 900px) {
     #col1 {
-      background-color:black;
+      
       width: 100%;
     }
     #col2 {
-        background-color: lightblue;
+       
         width: 100%;
       }
       .doc
-{
+     {
     width: 300px;
     height: 200px;
     margin-left: 40px;
-    
-}
+    }
   }
